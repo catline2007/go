@@ -60,7 +60,14 @@
     line-height: 30px;
     text-transform: uppercase;
     cursor: pointer;
+}
 
+.baner__button:hover, .baner__button:focus {
+    background-color: #6C0287;
+}
+
+.baner__button:active {
+    background-color: #640AA3;
 }
 
 .baner__arrow {
@@ -70,12 +77,12 @@
     background-image: url("../img/arrow.svg");
     border: none;
     background-repeat: no-repeat;
-    z-index: 2;
     position: relative;
     left: 165px;
     top: 100px;
 
 }
+
 
 .flex__container {
     display: flex;
@@ -91,6 +98,14 @@
     line-height: 28px;
     white-space: pre-line;
     padding: 40px;
+    transition-duration: 0.3s;
+	transition-property: transform;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+.about__item:hover {
+	transform: scale(1.1);
 }
 
 .about__item_vr {
@@ -199,7 +214,7 @@
 }
 
 .halls_section {
-    margin-top: -600px;
+    margin-top: -650px;
 }
 
 .halls_section:before {
@@ -207,7 +222,6 @@
     position: relative;
     left: 500px;
     top: -50px;
-    z-index: 1;
 }
 
 

@@ -171,8 +171,9 @@ input[type=radio] {
 	font-size: 18px;
 	line-height: 28px;
 	color: #211E1E;
-	transition-duration: 0.2s;
 	transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 .form__time:focus {
@@ -252,6 +253,9 @@ input[type=number]::placeholder {
 	color: #6C0287;
     border: none;
 	margin-right: 13px;
+	transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 .form__button:hover {

@@ -18,6 +18,16 @@
     text-transform: uppercase;
 }
 
+.header__nav-item:hover {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.header__nav-item:hover {
+    color: #CD06FF;
+}
+
 .header__btn {
     width: 280px;
     height: 55px;
@@ -26,6 +36,9 @@
     color: white;
     background-color: transparent;
     border-radius: 10px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 .header__btn:hover, .header__btn:focus {
