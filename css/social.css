@@ -12,5 +12,14 @@
 }
 
 .social__link:hover {
-    color: #ce0bff;
+    color: #EADEED;
+}
+
+.social__link:focus {
+    color:#EADEED;
+	outline: 1px solid #CD06FF;
+}
+
+.social__link:active {
+	color:#CD06FF;
 }

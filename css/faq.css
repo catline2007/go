@@ -25,6 +25,14 @@
     cursor: pointer;
 }
 
+.faq :nth-child(odd):hover::after {
+    background-image: url("../img/purple-open-hover.svg");
+}
+
+.faq :nth-child(odd):active::after {
+    background-image: url("../img/purple-open-active.svg");
+}
+
 .faq :nth-child(even){
     background-color: #440F51;
     color: white;
@@ -44,6 +52,14 @@
     background-image: url('../img/open.svg');
     background-size: contain;
     cursor: pointer;
+}
+
+.faq :nth-child(even):hover::after {
+    background-image: url("../img/white-open-hover.svg");
+}
+
+.faq :nth-child(even):active::after {
+    background-image: url("../img/white-open-active.svg");
 }
 
 .faq :last-child {
