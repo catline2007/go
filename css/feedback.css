@@ -1,0 +1,30 @@
+.container__feedback {
+    width: 980px;
+    height: 100%;
+}
+
+.feedback__item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.feedback__item-in {
+    text-align: center;
+}
+
+.feedback__wrapper-img {
+    width: 280px;
+    height: 280px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.feedback__wrapper-text {
+    padding-top: 50px;
+}
+
+.feedback__img {
+    width: 100%;
+}
+

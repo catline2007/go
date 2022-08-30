@@ -1,0 +1,29 @@
+.container__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.header__nav-list {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    text-transform: uppercase;
+}
+
+.header__btn {
+    width: 280px;
+    height: 55px;
+    border: 3px solid #CD06FF;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+}
