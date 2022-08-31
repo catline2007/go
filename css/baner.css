@@ -5,12 +5,12 @@
 }
 
 .baner__heading {
+    width: 100%;
     font-weight: 900;
     line-height: 100%;
     font-size: 150px;
     display: inline-block;
     letter-spacing: -0.1em;
-    text-align: left;
 }
 
 .baner__text {
