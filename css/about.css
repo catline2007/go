@@ -28,7 +28,7 @@
 
 .about__quote:before {
     content: "“ ";
-    color: #6C0287;
+    color: var(--light-purple-color, #6C0287);
     font-weight: 900;
     font-size: 44px;
     line-height: 50px;
@@ -36,7 +36,7 @@
 
 .about__quote:after {
     content: " ”";
-    color: #6C0287;
+    color: var(--light-purple-color, #6C0287);
     font-weight: 900;
     font-size: 44px;
     line-height: 50px;

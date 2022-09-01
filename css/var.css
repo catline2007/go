@@ -1,0 +1,12 @@
+:root {
+    --bg-color: #1B1A1B;
+    --main-font-color: #FFFFFF;
+    --main-purple-color: #440F51;
+    --light-purple-color: #6C0287;
+    --bright-purple-color: #CD06FF;
+    --active-purple-color: #640AA3; 
+    --gradient-purple-color: #370A37;
+    --active-button-color: #EADEED;
+    --cart-count: 3;
+    --gap: 30px;
+}

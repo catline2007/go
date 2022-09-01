@@ -34,8 +34,8 @@
 }
 
 .faq :nth-child(even){
-    background-color: #440F51;
-    color: white;
+    background-color: var(--main-purple-color, #440F51);
+    color: var(--main-font-color, #FFFFFF);
     font-weight: 700;
     font-size: 24px;
     padding: 30px 70px;

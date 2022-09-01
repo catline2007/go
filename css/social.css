@@ -5,21 +5,21 @@
 }
 
 .social__link {
-    color: white;
+    color: var(--main-font-color, #FFFFFF);
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
 
 .social__link:hover {
-    color: #EADEED;
+    color: var(--active-button-color, #EADEED);
 }
 
 .social__link:focus {
-    color:#EADEED;
-	outline: 1px solid #CD06FF;
+    color:var(--active-button-color, #EADEED);
+	outline: 1px solid var(--bright-purple-color, #CD06FF);
 }
 
 .social__link:active {
-	color:#CD06FF;
+	color:var(--bright-purple-color, #CD06FF);
 }
