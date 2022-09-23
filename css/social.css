@@ -11,6 +11,11 @@
     transition-timing-function: ease-in-out;
 }
 
+.social__link-svg {
+    width: 50px;
+    height: 50px;
+}
+
 .social__link:hover {
     color: var(--active-button-color, #EADEED);
 }
@@ -22,4 +27,15 @@
 
 .social__link:active {
 	color:var(--bright-purple-color, #CD06FF);
+}
+
+@media (max-width: 480px) {
+    .social {
+        gap: 20px;
+    }
+
+    .social__link-svg {
+        width: 30px;
+        height: 30px;
+    }
 }

@@ -9,10 +9,12 @@
     color: #1C1A1A;
     font-weight: 700;
     font-size: 24px;
-    padding: 30px 70px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    height: 87px;
 }
 
 .faq :nth-child(odd):after {
@@ -23,6 +25,7 @@
     background-image: url('../img/open-purple.svg');
     background-size: contain;
     cursor: pointer;
+    background-repeat: no-repeat;
 }
 
 .faq :nth-child(odd):hover::after {
@@ -38,10 +41,12 @@
     color: var(--main-font-color, #FFFFFF);
     font-weight: 700;
     font-size: 24px;
-    padding: 30px 70px;
-    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    height: 87px;
+    margin-bottom: 20px;
 }
 
 .faq :nth-child(even):after {
@@ -52,6 +57,7 @@
     background-image: url('../img/open.svg');
     background-size: contain;
     cursor: pointer;
+    background-repeat: no-repeat;
 }
 
 .faq :nth-child(even):hover::after {
@@ -64,4 +70,59 @@
 
 .faq :last-child {
     margin-bottom: 0;
+}
+
+.max-width {
+    width: 100%;
+}
+
+
+@media (max-width: 1200px) {
+    .faq :nth-child(odd), .faq :nth-child(even) {
+        height: 70px;
+        background-color: #fff;
+        color: #1C1A1A;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    .faq :nth-child(odd):after, .faq :nth-child(even):after {
+        background-image: url('../img/open-purple.svg');
+        background-size: contain;
+        cursor: pointer;
+    }
+
+    .faq :nth-child(even):hover::after {
+        background-image: url("../img/purple-open-hover.svg");
+    }
+    
+    .faq :nth-child(even):active::after {
+        background-image: url("../img/purple-open-active.svg");
+    }
+}
+
+@media (max-width: 900px) {
+    .faq :nth-child(odd), .faq :nth-child(even) {
+        font-size: 18px;
+        padding: 0 54px;
+    }
+}
+
+@media (max-width: 480px) {
+    .faq :nth-child(odd), .faq :nth-child(even) {
+        font-size: 12px;
+        line-height: 16px;
+        height: 46px;
+        padding: 0 10px;
+}
+    .faq :nth-child(odd):after, .faq :nth-child(even):after {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+}
+    .faq__item-width {
+        max-width: 225px;
+    }
 }
