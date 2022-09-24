@@ -21,15 +21,16 @@
 }
 
 .baner__container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 195px 195px;
     gap: 40px;
+    row-gap: 20px;
     margin-bottom: 145px;
+    justify-self: center;
+    text-align: center;
 }
 
 .baner__content {
-    max-width: 193px;
-    text-align: center;
     font-size: 30px;
     line-height: 34px;
 }
@@ -76,8 +77,9 @@
     width: 97px;
     height: 97px;
     position: relative;
-    left: 165px;
-    top: 100px;
+    align-self: center;
+    left: 105px;
+    top: 70px
 }
 
 
@@ -173,6 +175,9 @@
 }
 
 .halls__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(50% - 20px);
     height: 350px;
     font-weight: 700;
@@ -181,10 +186,6 @@
     text-transform: uppercase;
     white-space: pre-line;
     display: flex;
-}
-
-.halls__item p{
-    margin: auto;
 }
 
 .halls__item_vibes {
@@ -250,6 +251,8 @@
 
     .baner__container {
         margin-bottom: 80px;
+        grid-template-columns: 168px 168px;
+        row-gap: 5px;
     }
 
     .baner__content {
@@ -261,11 +264,13 @@
     .baner__content-big-purple {
         line-height: 112px;
         font-size: 80px;
+        align-self: flex-end;
     }
     
     .baner__content-small-purple {
         line-height: 85px;
         font-size: 60px;
+        align-self: flex-end;
     }
 
     .baner__button {
@@ -279,7 +284,7 @@
     .baner__arrow {
         width: 67px;
         height: 67px;
-        left: 165px;
+        left: 83px;
         top: 40px;
     }
 
@@ -336,7 +341,11 @@
 
     .baner__container {
         margin-bottom: 100px;
-    }
+        grid-template-columns: 103px 103px;
+        margin-bottom: 100px;
+        gap: 30px;
+        row-gap: 5px;
+        }
 
     .baner__content {
         max-width: 103px;
@@ -415,8 +424,10 @@
     }
 
     .baner__container {
+        grid-template-columns: 65px 65px;
         margin-bottom: 30px;
         gap: 20px;
+        row-gap: 5px;
     }
 
     .baner__content {
