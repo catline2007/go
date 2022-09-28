@@ -19,10 +19,9 @@
 }
 
 .about__quote {
-    font-size: 44px;
-    line-height: 50px;
+    font-size: 48px;
+    line-height: 55px;
     text-transform: uppercase;
-    white-space: pre-line;
     margin-bottom: 50px;
 }
 
@@ -30,7 +29,7 @@
     content: "“ ";
     color: var(--light-purple-color, #6C0287);
     font-weight: 900;
-    font-size: 44px;
+    font-size: 50px;
     line-height: 50px;
 }
 
@@ -38,7 +37,7 @@
     content: " ”";
     color: var(--light-purple-color, #6C0287);
     font-weight: 900;
-    font-size: 44px;
+    font-size: 50px;
     line-height: 50px;
 }
 
@@ -81,7 +80,7 @@
     }
 
     .about__quote {
-        font-size: 30px;
+        font-size: 32px;
         line-height: 36px;
         margin-bottom: 37px;
     }

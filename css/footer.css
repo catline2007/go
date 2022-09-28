@@ -72,6 +72,10 @@
     white-space: pre-line;
 }
 
+.footer__address_second_line {
+    margin-left: 50px;
+}
+
 .footer__address_svg {
     color: var(--light-purple-color, #6C0287);
     width: 26px;
@@ -143,6 +147,14 @@
     .footer__email:before {
         margin-right: 13px;
     }
+
+    .footer__address_second_line {
+        margin: 0;
+    }
+
+    .footer__address_first {
+        margin-bottom: 27px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -179,5 +191,9 @@
         flex-direction: column;
         align-items: center;
         gap: 40px;
+    }
+
+    .footer__address_first {
+        margin-bottom: 10px;
     }
 }

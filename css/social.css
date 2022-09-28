@@ -5,7 +5,9 @@
 }
 
 .social__link {
-    color: var(--main-font-color, #FFFFFF);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -18,11 +20,6 @@
 
 .social__link:hover {
     color: var(--active-button-color, #EADEED);
-}
-
-.social__link:focus {
-    color:var(--active-button-color, #EADEED);
-	outline: 1px solid var(--bright-purple-color, #CD06FF);
 }
 
 .social__link:active {

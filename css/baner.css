@@ -79,9 +79,24 @@
     position: relative;
     align-self: center;
     left: 105px;
-    top: 70px
+    top: 70px;
+    background-image: url('../img/arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
+
+.baner__arrow:hover {
+    background-image: url('../img/arrow_hover.svg');
+}
+
+.baner__arrow:focus {
+    background-image: url('../img/arrow_focus.svg');
+}
+
+.baner__arrow:active {
+	background-image: url('../img/arrow_active.svg');
+}
 
 .flex__container_cards {
     display: flex;
